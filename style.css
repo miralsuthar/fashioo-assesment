@@ -1,0 +1,159 @@
+/* GLOBAL SECTION */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffb121;
+}
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #160c42;
+  margin: 3rem 0rem;
+}
+
+.cardImage {
+  background-color: #ffb121;
+  box-shadow: 0px 4px 24px #946102;
+  padding: 2rem;
+  display: inline-block;
+  border-radius: 100%;
+}
+
+.cardImage img {
+  height: 80px;
+}
+
+/* OUR SERVICE PAGE */
+
+.ourServiceContainer {
+  font-family: "Barlow", sans-serif;
+  width: 60%;
+  margin: 2rem auto;
+}
+
+/* HEADER SECTION */
+
+.header h1 {
+  font-size: 3.5rem;
+  letter-spacing: 0.05em;
+}
+
+.header div {
+  background-color: #ffb121;
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 100%;
+  color: white;
+  box-shadow: inset 0px 4px 24px rgba(0, 0, 0, 0.25);
+  margin: 0rem 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.header h2 {
+  font-size: 2.5rem;
+  letter-spacing: 0.05em;
+}
+
+/* CUSTOMER CARD SECTION */
+
+.customersCards {
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: self-start;
+  align-items: center;
+  row-gap: 4rem;
+  column-gap: 2rem;
+}
+
+.cardc {
+  background-color: #ffb121;
+  box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.25);
+  width: 20rem;
+  padding: 2rem;
+  border-radius: 100px 0px;
+}
+
+.cardc p {
+  margin: 3.5rem 0rem;
+  font-size: 1.1rem;
+}
+
+/* FASHIONIST CARDS SECTION */
+
+.fashionistCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: self-start;
+  align-items: center;
+  row-gap: 3rem;
+}
+
+.cardf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30rem;
+  border-radius: 100px 0px;
+  box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.25);
+  padding: 1.5rem;
+}
+
+.cardf p {
+  padding: 0rem 2rem;
+  font-size: 1.1rem;
+}
+
+/* REGISTER SECTION */
+.registerSection {
+  background-color: #ffffff;
+  font-family: "Barlow", sans-serif;
+}
+.register {
+  width: 60%;
+  margin: 1rem auto;
+  padding: 2rem 0rem;
+}
+
+.register h1 {
+  font-size: 3.5rem;
+  letter-spacing: 0.05em;
+  margin: 1rem 0rem;
+}
+
+.register p {
+  font-size: 2.25rem;
+  letter-spacing: 0.05em;
+}
+
+.register span {
+  color: #ffb121;
+}
+
+.registerButtonContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3.5rem;
+}
+
+.registerButton {
+  background-color: #160c42;
+  border: none;
+  color: white;
+  font-size: 2.5rem;
+  padding: 0.5rem 5rem;
+  border-radius: 12px;
+}
+
+.registerButtonContainer img {
+  position: absolute;
+  bottom: -23%;
+  right: 26%;
+}
