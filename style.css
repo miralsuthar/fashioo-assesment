@@ -362,9 +362,9 @@ body {
   font-weight: 600;
 }
 
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
 .consultants {
   padding: 10px 19% 0px 19%;
@@ -413,6 +413,10 @@ body {
 
 .card p {
   text-align: center;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  line-height: 21px;
+  width: 80%;
 }
 
 .new {
