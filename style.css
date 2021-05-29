@@ -10,6 +10,136 @@ body {
 }
 
 /* RADHIKA PART */
+.heroSection {
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 98%;
+  color: white;
+  margin: auto;
+  height: 5vh;
+}
+
+.aboutSection {
+  width: 13%;
+}
+
+.aboutSection ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.switcher div {
+  height: 5px;
+  width: 40px;
+  margin-bottom: 3px;
+  border-radius: 10px;
+  background: white;
+}
+
+.switcher div:nth-child(1) {
+  margin-left: 10px;
+}
+.switcher div:nth-child(2) {
+  margin-left: 5px;
+}
+
+/* HERO MAIN SECTION */
+
+.heroMain {
+  display: flex;
+}
+
+.heroHeader {
+  margin-top: 5rem;
+  margin-left: 10rem;
+}
+
+.heroHeader h1 {
+  font-size: 7.5rem;
+  color: white;
+}
+
+.heroHeader button {
+  font-size: 1.8rem;
+  font-family: "Roboto", sans-serif;
+  padding: 1rem 3rem;
+  font-weight: 400;
+  border: none;
+  color: white;
+  margin-top: 4rem;
+  background: #160c42;
+}
+
+.heroStory {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroStory p {
+  width: 50%;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.storyDescription {
+  margin-left: 3rem;
+}
+.storyDescription div {
+  padding: 1rem 0rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.storyDescription .line {
+  width: 5px;
+  height: 80px;
+  background: purple;
+  border-radius: 5px;
+  margin-right: 1rem;
+}
+
+.heroImage {
+  position: relative;
+}
+
+#image1 {
+  margin-right: 5rem;
+}
+
+#image2 {
+  position: absolute;
+  bottom: 0%;
+  right: 0;
+}
+
+/* CONSULTANCY SECTION */
+.ourCounsultancy {
+  background: white;
+  padding: 2rem 0rem;
+}
+
+.counsultancyDescription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counsultancyDescription h1 {
+  font-size: 3.7rem;
+  letter-spacing: 0.05em;
+}
+
+.counsultancyDescription span {
+  color: #ffb121;
+  font-family: "Barlow", sans-serif;
+}
 
 /* MIRAL PART */
 
