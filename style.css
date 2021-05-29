@@ -10,231 +10,133 @@ body {
 }
 
 /* RADHIKA PART */
-.div1 {
-  position: absolute;
-  width: 1920px;
-  height: 1471px;
-  left: 0px;
-  top: 0px;
-  background: #ffb121;
+.head{
+  margin-top: 0px auto;
+  
 }
-#h1 {
-  position: absolute;
-  width: 151px;
-  height: 48px;
-  left: 871px;
-  top: 5px;
-
-  font-family: Barlow;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 48px;
-
-  letter-spacing: 0.05em;
-
-  color: #fdfbff;
+.hero{
+  background-color:#ffb121 ;
 }
-#h2 {
-  position: absolute;
-  width: 95px;
-  height: 27px;
-  left: 40px;
-  top: 17px;
-
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 27px;
-  /* identical to box height */
-
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-
-  color: #ffffff;
+.head ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
-#h3 {
-  position: absolute;
-  width: 66px;
-  height: 27px;
-  left: 231px;
-  top: 17px;
 
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 27px;
-  /* identical to box height */
-
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-
-  color: #ffffff;
+.head li {
+  float: left;
 }
-#h4 {
-  position: absolute;
-  width: 969px;
-  height: 280px;
-  left: 135px;
-  top: 70px;
 
-  font-family: Barlow;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 120px;
-  line-height: 140px;
-  /* or 117% */
-
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-
-  color: #fffbfb;
+.head li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 24px 16px 24px;
+  text-decoration: none;
+  letter-spacing: 2px;
 }
-#h6 {
-  position: absolute;
-  width: 166px;
-  height: 60px;
-  left: 454px;
-  top: 789px;
-
-  font-family: Barlow;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 60px;
-  /* identical to box height, or 150% */
-  color: #160c42;
-}
-#h7 {
-  position: absolute;
-  width: 375px;
-  height: 117px;
-  left: 478px;
-  top: 940px;
-
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
-
-  color: #fefefe;
-}
-#h8 {
-  position: absolute;
-  width: 132px;
-  height: 0px;
-  left: 400px;
-  top: 1010px;
-
-  border: 4px solid #7209b7;
-  transform: rotate(90deg);
-}
-figure {
-  position: absolute;
-  width: 350px;
-  height: 361px;
-  left: 0px;
-  top: 708px;
-  background: url(hero\ image\ 3.png);
-  filter: drop-shadow(0px 8px 32px rgba(0, 0, 0, 0.5));
-  border-radius: 140px 1px 140px 0px;
-  transform: matrix(-1, 0, 0, 1, 0, 0);
-}
-#h5 {
-  position: absolute;
-  width: 400px;
-  height: 90px;
-  left: 135px;
-  top: 550px;
-
-  background: #160c42;
-  box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.5);
-}
-#h9 {
-  position: absolute;
-  width: 255px;
-  height: 55px;
-  left: 207px;
-  top: 590px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
+.head p{
+  padding: 12px 16px 16px 400px;
+  color: white;
   font-size: 30px;
-  line-height: 60px;
-  /* or 200% */
+  letter-spacing: 2px;
 
-  text-transform: uppercase;
-
-  color: #fefdfd;
+float: left;
 }
-#h10 {
+
+.heading-main h2{
+  float: left;
+  width:60%;
+  color: #160C42;
+  font-size: 30px;
+  padding: 75px 20px 10px 60px;
+}
+.heading-main h5{
+  float: left;
+  width:50%;
+  color: white;
+  font-size: 17px;
+  padding: 0px 90px 0px 20px;
+  margin-left: 65px;
+  border-left: 3px solid #7209B7;;
+}
+
+.heading-main{
+  float: left;
+  width: 57%;
+  box-sizing: border-box;
+  
+}
+.heading-main p{
+  padding: 60px 0px 16px 100px;
+  color: white;
+  font-size: 90px;
+  letter-spacing: 2px;
+  
+}
+.image-main{
+  float: right;
+  width: 43%;
+  box-sizing: border-box;
+  margin-bottom: 140px;
+  
+}
+.image-main img{
+  width: 90%;
+  height: auto;
+  position: relative;
+}
+.image1-main{
   position: absolute;
-  width: 660px;
-  height: 720px;
-  right: 1104px;
-  top: 127px;
-  left: 1104px;
+margin-left: 57%;
+margin-top: 350px;
 
-  background: url(Hero\ image1.png);
-  border-radius: 0px 221px;
+  width: 43%;
+  box-sizing: border-box;
+  
 }
-#h11 {
-  position: absolute;
-  width: 382px;
-  height: 417px;
-  right: 0px;
-  top: 616px;
-  background: url(hero\ image\ 2.png);
-  filter: drop-shadow(0px 8px 32px rgba(0, 0, 0, 0.5));
-  border-radius: 130px 0px;
-  transform: matrix(-1, 0, 0, 1, 0, 0);
+.image1-main img{
+  float: right;
+  width: 49%;
+  height: auto;
+  position: relative;
 }
-.div2 {
-  position: absolute;
-  width: 1920px;
-  height: 340px;
-  left: 0px;
-  top: 1129px;
+.left-image img{
+  float: left;
+  width:40%;
+  width: 35%;
+  height: auto;
+}
+.needs {
+	background-color: #160C42;
+	border: none;
+	color: white;
+	padding: 20px 50px 20px 50px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 25px;
+	cursor: pointer;
+	
+  margin: 30px 200px 30px 100px;
+  font-weight: 100;
+	text-align: center;
+	align-items: center;
+	Font-family: Barlow;
+	font-style: normal;
+}
 
-  background: #fffcfc;
-}
-#h12 {
-  position: absolute;
-  width: 1120px;
-  height: 144px;
-  left: 400px;
-  top: 120px;
 
-  font-family: Barlow;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 60px;
-  line-height: 72px;
-  letter-spacing: 0.05em;
-  text-transform: capitalize;
-
-  color: #160c42;
-}
-#h13 {
-  position: absolute;
-  width: 290px;
-  height: 228.09px;
-  left: 1326px;
-  top: 100px;
-  background: url(Free\ consultancy_\ illustration.png);
-}
 /* MIRAL PART */
 
 .header {
-  display: flex;
+  width: 50%;
   justify-content: flex-start;
   align-items: center;
   color: #160c42;
   margin: 3rem 0rem;
+  display: inline-block
 }
 
 .cardImage {
@@ -268,11 +170,12 @@ figure {
   background-color: #ffb121;
   padding: 0.8rem 1rem;
   border: none;
-  border-radius: 100%;
+  border-radius: 50%;
   color: white;
   box-shadow: inset 0px 4px 24px rgba(0, 0, 0, 0.25);
   margin: 0rem 0.5rem;
   margin-top: 0.5rem;
+  float: left;
 }
 
 .header h2 {
