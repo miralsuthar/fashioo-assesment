@@ -468,7 +468,7 @@ body {
 .column {
 	float: left;
 	width: 33%;
-	padding: 0px 30px 60px 0px;
+	padding: 0px 15px 60px 15px;
 }
 
 .card {
