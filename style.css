@@ -10,223 +10,7 @@ body {
 }
 
 /* RADHIKA PART */
-.div1 {
-  position: absolute;
-  width: 1920px;
-  height: 1471px;
-  left: 0px;
-  top: 0px;
-  background: #ffb121;
-}
-#h1 {
-  position: absolute;
-  width: 151px;
-  height: 48px;
-  left: 871px;
-  top: 5px;
 
-  font-family: Barlow;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 48px;
-
-  letter-spacing: 0.05em;
-
-  color: #fdfbff;
-}
-#h2 {
-  position: absolute;
-  width: 95px;
-  height: 27px;
-  left: 40px;
-  top: 17px;
-
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 27px;
-  /* identical to box height */
-
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-
-  color: #ffffff;
-}
-#h3 {
-  position: absolute;
-  width: 66px;
-  height: 27px;
-  left: 231px;
-  top: 17px;
-
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 27px;
-  /* identical to box height */
-
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-
-  color: #ffffff;
-}
-#h4 {
-  position: absolute;
-  width: 969px;
-  height: 280px;
-  left: 135px;
-  top: 70px;
-
-  font-family: Barlow;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 120px;
-  line-height: 140px;
-  /* or 117% */
-
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-
-  color: #fffbfb;
-}
-#h6 {
-  position: absolute;
-  width: 166px;
-  height: 60px;
-  left: 454px;
-  top: 789px;
-
-  font-family: Barlow;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 60px;
-  /* identical to box height, or 150% */
-  color: #160c42;
-}
-#h7 {
-  position: absolute;
-  width: 375px;
-  height: 117px;
-  left: 478px;
-  top: 940px;
-
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
-
-  color: #fefefe;
-}
-#h8 {
-  position: absolute;
-  width: 132px;
-  height: 0px;
-  left: 400px;
-  top: 1010px;
-
-  border: 4px solid #7209b7;
-  transform: rotate(90deg);
-}
-figure {
-  position: absolute;
-  width: 350px;
-  height: 361px;
-  left: 0px;
-  top: 708px;
-  background: url(hero\ image\ 3.png);
-  filter: drop-shadow(0px 8px 32px rgba(0, 0, 0, 0.5));
-  border-radius: 140px 1px 140px 0px;
-  transform: matrix(-1, 0, 0, 1, 0, 0);
-}
-#h5 {
-  position: absolute;
-  width: 400px;
-  height: 90px;
-  left: 135px;
-  top: 550px;
-
-  background: #160c42;
-  box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.5);
-}
-#h9 {
-  position: absolute;
-  width: 255px;
-  height: 55px;
-  left: 207px;
-  top: 590px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 60px;
-  /* or 200% */
-
-  text-transform: uppercase;
-
-  color: #fefdfd;
-}
-#h10 {
-  position: absolute;
-  width: 660px;
-  height: 720px;
-  right: 1104px;
-  top: 127px;
-  left: 1104px;
-
-  background: url(Hero\ image1.png);
-  border-radius: 0px 221px;
-}
-#h11 {
-  position: absolute;
-  width: 382px;
-  height: 417px;
-  right: 0px;
-  top: 616px;
-  background: url(hero\ image\ 2.png);
-  filter: drop-shadow(0px 8px 32px rgba(0, 0, 0, 0.5));
-  border-radius: 130px 0px;
-  transform: matrix(-1, 0, 0, 1, 0, 0);
-}
-.div2 {
-  position: absolute;
-  width: 1920px;
-  height: 340px;
-  left: 0px;
-  top: 1129px;
-
-  background: #fffcfc;
-}
-#h12 {
-  position: absolute;
-  width: 1120px;
-  height: 144px;
-  left: 400px;
-  top: 120px;
-
-  font-family: Barlow;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 60px;
-  line-height: 72px;
-  letter-spacing: 0.05em;
-  text-transform: capitalize;
-
-  color: #160c42;
-}
-#h13 {
-  position: absolute;
-  width: 290px;
-  height: 228.09px;
-  left: 1326px;
-  top: 100px;
-  background: url(Free\ consultancy_\ illustration.png);
-}
 /* MIRAL PART */
 
 .header {
@@ -313,6 +97,7 @@ figure {
   justify-items: self-start;
   align-items: center;
   row-gap: 3rem;
+  column-gap: 2rem;
 }
 
 .cardf {
@@ -441,176 +226,179 @@ figure {
 
 /* RANJITH PART */
 body {
-	margin: 0px;
-	Font-family: Barlow;
-	font-style: normal;
-	font-weight: 600;
+  margin: 0px;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: 600;
 }
 
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .consultants {
-	padding: 10px 19% 0px 19%;
-	background-color: #FFB121;
+  padding: 10px 19% 0px 19%;
+  background-color: #ffb121;
 }
 
 .title p {
-	font-size: 42px;
-	text-align: Left;
-	color: #160C42;
-	letter-spacing: 0.05em;
-	font-weight: bolder;
+  font-size: 42px;
+  text-align: Left;
+  color: #160c42;
+  letter-spacing: 0.05em;
+  font-weight: bolder;
   padding: 15px 0px 40px 0px;
 }
 
 .column {
-	float: left;
-	width: 33%;
-	padding: 0px 15px 60px 15px;
+  float: left;
+  width: 33%;
+  padding: 0px 15px 60px 15px;
 }
 
 .card {
-	background: #FFB121;
-	box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25), inset 0px 4px 15px rgba(0, 0, 0, 0.25);
-	border-radius: 32px;
-	padding: 5px 5px;
+  background: #ffb121;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25),
+    inset 0px 4px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 32px;
+  padding: 5px 5px;
+  position: relative;
 }
 
 .row {
-	margin: 0 -5px;
+  margin: 0 -5px;
 }
-
 
 /* Clear floats after the columns */
 
 .row:after {
-	content: "";
-	display: table;
-	clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .card h3 {
-	text-align: center;
+  text-align: center;
 }
 
 .card p {
-	text-align: center;
+  text-align: center;
 }
 
 .new {
-	padding: 0% 0% 0% 20%;
-	float: left;
-	width: 80%;
+  padding: 0% 0% 0% 20%;
+  float: left;
+  width: 80%;
 }
 
 .new h5 {
-	font-size: 21px;
-	text-align: Left;
-	color: #616161;
-	letter-spacing: 0.05em;
-	font-weight: bolder;
-	line-height: 28px;
-	margin-top: 8px;
-	margin-bottom: 10px;
+  font-size: 21px;
+  text-align: Left;
+  color: #616161;
+  letter-spacing: 0.05em;
+  font-weight: bolder;
+  line-height: 28px;
+  margin-top: 8px;
+  margin-bottom: 10px;
 }
 
 .title1 p {
-	font-size: 42px;
-	text-align: Left;
-	color: #160C42;
-	letter-spacing: 0.05em;
-	font-weight: bolder;
-	margin-bottom: 6px;
-	margin-top: 15px;
+  font-size: 42px;
+  text-align: Left;
+  color: #160c42;
+  letter-spacing: 0.05em;
+  font-weight: bolder;
+  margin-bottom: 6px;
+  margin-top: 15px;
 }
 
 .image img {
-	padding: 3% 2% 0% 0%;
-	width: 20%;
-	height: auto;
+  padding: 3% 2% 0% 0%;
+  width: 20%;
+  height: auto;
 }
 
 .image1 img {
-	padding: 6% 2% 5% 0px;
-	width: 20%;
-	height: auto;
+  padding: 6% 2% 5% 0px;
+  width: 20%;
+  height: auto;
 }
 
 hr {
-	margin-bottom: 0px;
-	margin-top: 0px;
-	height: 12px;
-	border: 0;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.15), #FFB121);
+  margin-bottom: 0px;
+  margin-top: 0px;
+  height: 12px;
+  border: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.15), #ffb121);
 }
 
 .card img {
-	position: absolute;
-	width: 10%;
-	height: auto;
-	border-radius: 50%;
-	margin-top: 0.5%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* width: 10%;
+  height: auto; */
+  border-radius: 50%;
+  margin-top: 0.5%;
 }
 
 .card h3 {
-	font-size: 17px;
-	color: black;
-	padding-left: 55%;
-	text-align: left;
-	margin-top: 17%;
-	margin-bottom: 0px;
+  font-size: 17px;
+  color: black;
+  padding-left: 55%;
+  text-align: left;
+  margin-top: 17%;
+  margin-bottom: 0px;
 }
 
 .card h4 {
-	font-size: 17px;
-	color: white;
-	padding-left: 55%;
-	margin-top: 0px;
-	margin-bottom: 6%;
+  font-size: 17px;
+  color: white;
+  padding-left: 55%;
+  margin-top: 0px;
+  margin-bottom: 6%;
 }
 
 .card p {
-	font-size: 13px;
-	color: black;
-	padding: 30px 20px 15px 30px;
-	text-transform: uppercase;
-	text-align: left;
-	font-weight: bold;
+  font-size: 13px;
+  color: black;
+  padding: 30px 20px 15px 30px;
+  text-transform: uppercase;
+  text-align: left;
+  font-weight: bold;
 }
 
 .button {
-	background-color: white;
-	border: none;
-	color: black;
-	padding: 3% 25% 3% 25%;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 12px;
-	cursor: pointer;
-	border-radius: 6px;
-	margin-left: 12%;
-	text-align: center;
-	align-items: center;
-	font-weight: bold;
-	Font-family: Barlow;
-	font-style: normal;
-	margin-bottom: 15px;
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 3% 25% 3% 25%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-left: 12%;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  font-family: Barlow;
+  font-style: normal;
+  margin-bottom: 15px;
 }
-.what{
+.what {
   background-color: white;
 }
 
 @media screen and (max-width: 900px) {
-	.column {
-		width: 100%;
-		display: block;
-		margin-bottom: 20px;
-	}
-	.card img {
-		width: 20%;
-		height: auto;
-	}
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .card img {
+    width: 20%;
+    height: auto;
+  }
 }
