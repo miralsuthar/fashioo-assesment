@@ -440,3 +440,177 @@ figure {
 }
 
 /* RANJITH PART */
+body {
+	margin: 0px;
+	Font-family: Barlow;
+	font-style: normal;
+	font-weight: 600;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.consultants {
+	padding: 10px 19% 0px 19%;
+	background-color: #FFB121;
+}
+
+.title p {
+	font-size: 42px;
+	text-align: Left;
+	color: #160C42;
+	letter-spacing: 0.05em;
+	font-weight: bolder;
+  padding: 15px 0px 40px 0px;
+}
+
+.column {
+	float: left;
+	width: 33%;
+	padding: 0px 30px 60px 0px;
+}
+
+.card {
+	background: #FFB121;
+	box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25), inset 0px 4px 15px rgba(0, 0, 0, 0.25);
+	border-radius: 32px;
+	padding: 5px 5px;
+}
+
+.row {
+	margin: 0 -5px;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.card h3 {
+	text-align: center;
+}
+
+.card p {
+	text-align: center;
+}
+
+.new {
+	padding: 0% 0% 0% 20%;
+	float: left;
+	width: 80%;
+}
+
+.new h5 {
+	font-size: 21px;
+	text-align: Left;
+	color: #616161;
+	letter-spacing: 0.05em;
+	font-weight: bolder;
+	line-height: 28px;
+	margin-top: 8px;
+	margin-bottom: 10px;
+}
+
+.title1 p {
+	font-size: 42px;
+	text-align: Left;
+	color: #160C42;
+	letter-spacing: 0.05em;
+	font-weight: bolder;
+	margin-bottom: 6px;
+	margin-top: 15px;
+}
+
+.image img {
+	padding: 3% 2% 0% 0%;
+	width: 20%;
+	height: auto;
+}
+
+.image1 img {
+	padding: 6% 2% 5% 0px;
+	width: 20%;
+	height: auto;
+}
+
+hr {
+	margin-bottom: 0px;
+	margin-top: 0px;
+	height: 12px;
+	border: 0;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.15), #FFB121);
+}
+
+.card img {
+	position: absolute;
+	width: 10%;
+	height: auto;
+	border-radius: 50%;
+	margin-top: 0.5%;
+}
+
+.card h3 {
+	font-size: 17px;
+	color: black;
+	padding-left: 55%;
+	text-align: left;
+	margin-top: 17%;
+	margin-bottom: 0px;
+}
+
+.card h4 {
+	font-size: 17px;
+	color: white;
+	padding-left: 55%;
+	margin-top: 0px;
+	margin-bottom: 6%;
+}
+
+.card p {
+	font-size: 13px;
+	color: black;
+	padding: 30px 20px 15px 30px;
+	text-transform: uppercase;
+	text-align: left;
+	font-weight: bold;
+}
+
+.button {
+	background-color: white;
+	border: none;
+	color: black;
+	padding: 3% 25% 3% 25%;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	cursor: pointer;
+	border-radius: 6px;
+	margin-left: 12%;
+	text-align: center;
+	align-items: center;
+	font-weight: bold;
+	Font-family: Barlow;
+	font-style: normal;
+	margin-bottom: 15px;
+}
+.what{
+  background-color: white;
+}
+
+@media screen and (max-width: 900px) {
+	.column {
+		width: 100%;
+		display: block;
+		margin-bottom: 20px;
+	}
+	.card img {
+		width: 20%;
+		height: auto;
+	}
+}
